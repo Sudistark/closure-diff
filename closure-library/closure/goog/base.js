@@ -230,7 +230,7 @@ goog.FEATURESET_YEAR = goog.define('goog.FEATURESET_YEAR', 2012);
  * purposes and it is difficult for the JSCompiler to statically determine
  * whether they are used.
  */
-goog.DEBUG = goog.define('goog.DEBUG', false);
+goog.DEBUG = goog.define('goog.DEBUG', true);
 
 
 /**
@@ -786,7 +786,7 @@ goog.addDependency = function(relPath, provides, requires, opt_loadFlags) {
  * provided (and depend on the fact that some outside tool correctly ordered
  * the script).
  */
-goog.ENABLE_DEBUG_LOADER = goog.define('goog.ENABLE_DEBUG_LOADER', true);
+goog.ENABLE_DEBUG_LOADER = goog.define('goog.ENABLE_DEBUG_LOADER', false);
 
 
 /**
